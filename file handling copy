@@ -1,0 +1,5 @@
+with open("f1.txt", "r") as f:
+    time = f.read()
+
+with open("f2.txt", "w") as f2:
+    f2.write(time)
